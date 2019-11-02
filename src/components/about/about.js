@@ -7,7 +7,7 @@ function About(props) {
     <section id="about">
       <div className="row">
         <div className="three columns">
-          <img className="profile-pic" src="images/profilepic.jpg" alt="" />
+          <img className="profile-pic" src="images/profile.png" alt="" />
         </div>
 
         <div className="nine columns main-col">

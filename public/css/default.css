@@ -207,13 +207,13 @@ blockquote cite a,
 blockquote cite a:visited { color: #8B9798; border: none }
 
 /* ---------------------------------------------------------------------
-/*  Pull Quotes Markup
-/*
-    <aside class="pull-quote">
-		<blockquote>
-			<p></p>
-		</blockquote>
-	 </aside>
+         /*  Pull Quotes Markup
+         /*
+            <aside class="pull-quote">
+               <blockquote>
+                  <p></p>
+               </blockquote>
+            </aside>
 /*
 /* --------------------------------------------------------------------- */
 .pull-quote {
@@ -305,13 +305,13 @@ ul.large li { }
 li p { }
 
 /* ---------------------------------------------------------------------
-/*  Stats Tab Markup
+            /*  Stats Tab Markup
 
-    <ul class="stats-tabs">
-		<li><a href="#">[value]<b>[name]</b></a></li>
-	 </ul>
+               <ul class="stats-tabs">
+                  <li><a href="#">[value]<b>[name]</b></a></li>
+               </ul>
 
-    Extend this object into your markup.
+               Extend this object into your markup.
 /*
 /* --------------------------------------------------------------------- */
 .stats-tabs {

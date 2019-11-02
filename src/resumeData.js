@@ -1,12 +1,16 @@
 let resumeData = {
   // "imagebaseurl":"https://techonoeticsclub.github.io/",  MAKE FOR MYSELF
+  //------------------------------------------------------------------------------ name
   name: "Felipe Arcila",
+  //------------------------------------------------------------------------------ role
   role:
-    " a problem solver, with a knack for pleasing aesthetics and functionality.",
+    " Front-End Developer, Project Manager.",
   //linkedinId: "felipearcila",
  // skypeid: "felipearcila87@hotmail.com",
-  roleDescription: "Front-End Developer, Project Manager.",
+  roleDescription: "Ready to turn your idea into reality.",
 
+
+  //------------------------------------------------------------------------------ social links
   socialLinks: [
     {
       name: "Linkedin",
@@ -30,13 +34,14 @@ let resumeData = {
     }
   ],
 
+  //------------------------------------------------------------------------------ about me
   aboutme:
-    "Strategic, self-motivated Front End Developer with experience in Project Management. Possess a range of software development skills. Actively seeking strategic Software Development opportunities. Willing to relocate.",
+    " a problem solver, with a knack for pleasing aesthetics and functionality.",
   address: "Huntington Beach, CA",
   website: "https://www.https://github.com/felipearcilaz.com",
   education: [
     {
-      UniversityName: "",
+      UniversityName: "Redwood Code Academy",
       specialization: "Full Stack Development Bootcamp",
       MonthOfPassing: "Sept",
       YearOfPassing: "2019"
@@ -64,6 +69,8 @@ let resumeData = {
       //"Achievements":"Some Achievements"
     }
   ],
+
+  //------------------------------------------------------------------------------ work experience
   work: [
     {
       CompanyName: "Some Company",
@@ -80,18 +87,37 @@ let resumeData = {
       Achievements: "Some Achievements"
     }
   ],
-  skillsDescription: "Your skills here",
+
+//------------------------------------------------------------------------------ skills header
+  skillsDescription: "Among others, this is the skillset I bring to the table!",
+
+//------------------------------------------------------------------------------ skills
   skills: [
     {
-      skillname: "HTML5"
+      skillname: "HTML"
     },
     {
       skillname: "CSS"
     },
     {
-      skillname: "Reactjs"
-    }
+      skillname: "Javascript"
+    },
+    {
+      skillname: "ReactJS"
+    },
+    {
+      skillname: "Redux"
+    },
+    {
+      skillname: "WordPress"
+    }, 
+    {
+      skillname: "PHP"
+    },
+
   ],
+
+//------------------------------------------------------------------------------ portfolio
   portfolio: [
     {
       name: "project1",
@@ -114,14 +140,16 @@ let resumeData = {
       imgurl: "images/portfolio/phone.jpg"
     }
   ],
+
+
   testimonials: [
     {
-      description: "This is a sample testimonial",
+      description: "Felipe went above and beyond in designing the functionality and look for my business",
       name: "Victoria Zapata, Life Coach"
     },
     {
-      description: "This is a sample testimonial",
-      name: "Ms. Julia Pritchett"
+      description: "You did a great job, will recommend you to others!",
+      name: "Ms. Julia Pritchett, Dual-Immersion Teacher"
     }
   ]
 };

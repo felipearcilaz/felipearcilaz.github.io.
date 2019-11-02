@@ -10,6 +10,7 @@ function Header (props) {
   return (
       <React.Fragment>
          <header id="home">
+
             <nav id="nav-wrap">
                <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
@@ -20,27 +21,15 @@ function Header (props) {
                   <li><a className="smoothscroll" href="#portfolio">Works</a></li>
                   <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
                   <li><a className="smoothscroll" href="#contact">Contact Me</a></li>
-                  {/* <li className="social">  ///SOCIAL LINKS UP TOP
-                        {
-                        resumeData.socialLinks && resumeData.socialLinks.map(item =>{
-                           return(
-                                    <li key={item.name}>
-                                    <a href={item.url} target="_blank"><i className={item.className}></i></a>
-                                    </li>
-                                 )
-                              }
-                        )
-                        }
-                  </li> */}
                </ul>
             </nav>
 
             <div className="row banner">
                <div className="banner-text">
                   <Typing>
-                     <h1 className="responsive-headline">I am {resumeData.name}.</h1>
+                     <h1 className="responsive-headline">I am {resumeData.name}</h1>
                   </Typing>
-                     <h3>I am a {resumeData.role}.{resumeData.roleDescription}</h3>
+                     <h3>{resumeData.role}<br/>{resumeData.roleDescription}</h3>
                   
                      <hr/>
                      <ul className="social">

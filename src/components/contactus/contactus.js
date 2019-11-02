@@ -9,7 +9,7 @@ function ContactUs (props) {
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
-              Feel free to contact me for any work or suggestions below
+              Feel free to contact me for any work or suggestions in the links below:
               </p>
             </div>
           </div>
