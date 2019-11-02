@@ -211,6 +211,7 @@ ul#nav li.current a { color: #F06000; }
    line-height: 30px;
    color: #7A7A7A;
 }
+/*------------------------------------------------------ profile picture */
 #about .profile-pic {
    position: relative;
    width: 30rem;

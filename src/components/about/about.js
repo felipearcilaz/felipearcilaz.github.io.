@@ -7,7 +7,7 @@ function About(props) {
     <section id="about">
       <div className="row">
         <div className="three columns">
-          <img className="profile-pic" src="images/profile.png" alt="" />
+          <img className="" src="images/profilepic.png" alt="handsome dude" />
         </div>
 
         <div className="nine columns main-col">
@@ -20,8 +20,13 @@ function About(props) {
               <p className="address">
                 <span>{resumeData.name}</span>
                 <br></br>
-                <span>{resumeData.address}</span>
+                <span>{resumeData.email}</span>
                 <br></br>
+                {/* <span>{resumeData.address}</span>
+                <br></br> */}
+                <span>{resumeData.phone}</span>
+                <br></br>
+                
                 <span>{resumeData.website}</span>
               </p>
             </div>

@@ -1,3 +1,5 @@
+// import { getMaxListeners } from "cluster"
+
 let resumeData = {
   // "imagebaseurl":"https://techonoeticsclub.github.io/",  MAKE FOR MYSELF
   //------------------------------------------------------------------------------ name
@@ -36,9 +38,11 @@ let resumeData = {
 
   //------------------------------------------------------------------------------ about me
   aboutme:
-    " a problem solver, with a knack for pleasing aesthetics and functionality.",
-  address: "Huntington Beach, CA",
+    " I'm a problem solver with a knack for pleasing aesthetics and functionality.",
+  email: "felipearcilaz@gmail.com",
+  phone: "(714)-341-5246", 
   website: "https://www.https://github.com/felipearcilaz.com",
+ 
   education: [
     {
       UniversityName: "Redwood Code Academy",
